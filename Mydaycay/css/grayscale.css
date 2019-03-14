@@ -48,13 +48,13 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
-  }
+    color: white
+    }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: white
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -93,7 +93,7 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/Masterhead1.jpg");
-  background: linear-gradient(to bottom,  0%, rgba(31, 52, 56, 0.5) 75%, #1B2C2F 100%), url("");
+  background: linear-gradient(to bottom,  0%, rgba(71, 109, 116, 0.5).5) 75%, #172324 100%), url("");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -106,13 +106,14 @@
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  -webkit-text-fill-color: white;
 }
 
 @media (min-width: 768px) {
@@ -150,7 +151,7 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #eb33d3;
 }
 
 .btn-primary:hover {
@@ -187,7 +188,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid 
   }
 }
 
@@ -201,7 +202,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: yellow;
     border-width: .25rem;
     width: 30%;
   }
@@ -288,7 +289,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #0a0a0a !important;
 }
 
 .bg-primary {
@@ -301,4 +302,8 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+.text-white{ 
+  color: grey;
 }

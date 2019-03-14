@@ -48,13 +48,13 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
-  }
+    color: white
+    }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: white
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -92,8 +92,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/Masterhead1.jpg");
-  background: linear-gradient(to bottom,  0%, rgba(31, 52, 56, 0.5) 75%, #1B2C2F 100%), url("");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(103,170,241, 0.1)), color-stop(50%, rgba(103,170,241, 0.5)), to(#67aaf1)) 20%, url("../img/main.jpg");
+  background: linear-gradient(to bottom,  0%, rgba(71, 109, 116, 0.5).5) 75%, #172324 100%), url("");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -106,13 +106,14 @@
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
 }
 
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  -webkit-text-fill-color: white;
 }
 
 @media (min-width: 768px) {
@@ -150,7 +151,7 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #eb33d3;
 }
 
 .btn-primary:hover {
@@ -167,9 +168,9 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 7rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(22,22,22)), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgb(46,94,103))));
+  background: linear-gradient(to bottom, #67aaf1 0%, rgba(29,39,40, 0.9) 75%, rgba(rgba(238, 238, 238, 1)) 100%);
 }
 
 .about-section p {
@@ -187,7 +188,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid 
   }
 }
 
@@ -201,20 +202,21 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: yellow;
     border-width: .25rem;
     width: 30%;
   }
 }
 
 .signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  padding: 12rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(100,170,241, 0.1)), color-stop(20%, rgba(40,130,198, 0.5)), to(#2882C6)), url("../img/Sign-up.jpg");
+  background: linear-gradient(to bottom, rgba(40,130,198, 0.1) 0%, rgba(40,130,198, 0.5) 75%, #2882C6 100%), url("../img/Sign-up2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+
 }
 
 .signup-section .form-inline input {
@@ -235,7 +237,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #eb33d3;
 }
 
 .contact-section .card h4 {
@@ -246,7 +248,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #eb33d3;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -288,7 +290,10 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color:rgba(232, 236, 241, 1) !important;
+}
+.bg-black2 {
+  background-color: #ffffff !important;
 }
 
 .bg-primary {
@@ -296,9 +301,40 @@ a:focus, a:hover {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #eb33d3 !important;
 }
 
 footer {
   padding: 5rem 0;
+}
+
+.text-white{ 
+  color: grey;
+}
+
+.col-sm{
+  color: #36454f;
+  font-size: 18px;
+  padding-top: px;
+}
+
+.icon-text{
+  font-size: 11px;
+  padding-top: 30px;
+}
+
+.about-icon{
+  margin-top: 20px;
+}
+
+.service-section{
+  color: #36454f
+}
+
+#icon{
+  margin-bottom:20px;
+}
+
+.fab{
+  color:#eb33d3;
 }

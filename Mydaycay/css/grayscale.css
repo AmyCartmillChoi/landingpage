@@ -169,8 +169,8 @@
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(22,22,22)), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgb(46,94,103))));
+  background: linear-gradient(to bottom, #151717 0%, rgba(29,39,40, 0.9) 75%, rgba(rgba(238, 238, 238, 1)) 100%);
 }
 
 .about-section p {
@@ -211,11 +211,12 @@
 .signup-section {
   padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/Footer1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+
 }
 
 .signup-section .form-inline input {
@@ -236,7 +237,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #eb33d3;
 }
 
 .contact-section .card h4 {
@@ -247,7 +248,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #eb33d3;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -289,7 +290,10 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #0a0a0a !important;
+  background-color:rgba(232, 236, 241, 1) !important;
+}
+.bg-black2 {
+  background-color: #ffffff !important;
 }
 
 .bg-primary {
@@ -297,7 +301,7 @@ a:focus, a:hover {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #eb33d3 !important;
 }
 
 footer {
@@ -306,4 +310,31 @@ footer {
 
 .text-white{ 
   color: grey;
+}
+
+.col-sm{
+  color: #36454f
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.icon-text{
+  font-size: 11px;
+  padding-top: 30px;
+}
+
+.about-icon{
+  margin-top: 20px;
+}
+
+.service-section{
+  color: #36454f
+}
+
+#icon{
+  margin-bottom:20px;
+}
+
+.fab{
+  color:#eb33d3;
 }

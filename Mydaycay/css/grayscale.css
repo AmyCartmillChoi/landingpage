@@ -168,7 +168,7 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 7rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(22,22,22)), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgb(46,94,103))));
   background: linear-gradient(to bottom, #151717 0%, rgba(29,39,40, 0.9) 75%, rgba(rgba(238, 238, 238, 1)) 100%);
 }
@@ -313,9 +313,9 @@ footer {
 }
 
 .col-sm{
-  color: #36454f
+  color: #36454f;
   font-size: 18px;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .icon-text{
